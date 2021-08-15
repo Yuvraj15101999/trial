@@ -11,8 +11,11 @@ namespace BankAccountLibrary
     public enum BankAccountTypeEnum
     {
         Current = 1,
-        Saving = 2
+        Saving = 2,
+        CAS = 3
     }
+
+
     interface IBankAccount
     {
         double GetBalance();
